@@ -284,6 +284,8 @@
   /* Footer */
   .foot { padding-block: 32px; font-size: 1rem; color: var(--soft); border-top: 1px solid var(--rule); }
   .foot .wrap { display: flex; flex-wrap: wrap; gap: 12px 32px; align-items: center; justify-content: space-between; }
+  .foot a:not(.logo) { color: inherit; font-weight: 600; text-underline-offset: 3px; }
+  .foot a:not(.logo):hover { color: var(--ink); }
   .foot .logo-mark { height: 36px; }
   .foot .logo-name { font-size: 1.7rem; }
   .foot .logo-sub { font-size: 0.47rem; }
@@ -631,7 +633,7 @@
   <div class="wrap">
     <a class="logo" href="#top" aria-label="Nexus Academy home"><img class="logo-mark" src="mark.png?v=2" alt="" width="198" height="240"><span class="logo-text"><span class="logo-name">Nexus</span><span class="logo-sub" aria-hidden="true"><span>A</span><span>c</span><span>a</span><span>d</span><span>e</span><span>m</span><span>y</span></span></span></a>
     <p>1-on-1 online tutoring for grades 1 to 12.</p>
-    <p>&copy; <span id="year"></span> Nexus Academy</p>
+    <p>&copy; <span id="year"></span> Nexus Academy. Site built by <a href="https://covru.ca" target="_blank" rel="noopener">Covru</a>.</p>
   </div>
 </footer>
 
