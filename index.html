@@ -286,6 +286,9 @@
   .foot .wrap { display: flex; flex-wrap: wrap; gap: 12px 32px; align-items: center; justify-content: space-between; }
   .foot a:not(.logo) { color: inherit; font-weight: 600; text-underline-offset: 3px; }
   .foot a:not(.logo):hover { color: var(--ink); }
+  .social { display: flex; gap: 20px; margin: 0; padding: 0; list-style: none; }
+  .foot .social a { display: inline-flex; align-items: center; gap: 7px; color: var(--ink); text-decoration: none; }
+  .foot .social a:hover span { text-decoration: underline; text-underline-offset: 3px; }
   .foot .logo-mark { height: 36px; }
   .foot .logo-name { font-size: 1.7rem; }
   .foot .logo-sub { font-size: 0.47rem; }
@@ -633,6 +636,9 @@
   <div class="wrap">
     <a class="logo" href="#top" aria-label="Nexus Academy home"><img class="logo-mark" src="mark.png?v=2" alt="" width="198" height="240"><span class="logo-text"><span class="logo-name">Nexus</span><span class="logo-sub" aria-hidden="true"><span>A</span><span>c</span><span>a</span><span>d</span><span>e</span><span>m</span><span>y</span></span></span></a>
     <p>1-on-1 online tutoring for grades 1 to 12.</p>
+    <ul class="social" aria-label="Social media">
+      <li><a href="https://www.instagram.com/thenexusacademy_" target="_blank" rel="noopener" aria-label="Nexus Academy on Instagram"><svg viewBox="0 0 24 24" width="22" height="22" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="3" y="3" width="18" height="18" rx="5"/><circle cx="12" cy="12" r="4.2"/><circle cx="17.3" cy="6.7" r="0.6" fill="currentColor"/></svg><span>Instagram</span></a></li>
+    </ul>
     <p>&copy; <span id="year"></span> Nexus Academy. Site built by <a href="https://covru.ca" target="_blank" rel="noopener">Covru</a>.</p>
   </div>
 </footer>
